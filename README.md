@@ -24,7 +24,7 @@ Before running locally, copy [backend/.env.example](backend/.env.example) to [ba
 Backend:
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/backend
+cd /projectpath/backend
 source venv/bin/activate
 python app.py
 ```
@@ -32,7 +32,7 @@ python app.py
 Frontend:
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/frontend
+cd /projectpath/frontend
 npm run dev
 ```
 
