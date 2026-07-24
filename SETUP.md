@@ -36,7 +36,7 @@ SQLALCHEMY_DATABASE_URI="postgresql://postgres:July%402k20262k2026@db.liepzgefxv
 ### Backend
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/backend
+cd /projectpath/backend
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ### Frontend
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/frontend
+cd /projectpath/frontend
 npm install
 ```
 
@@ -54,7 +54,7 @@ npm install
 This creates sample properties, admin login data, and sample inquiries/sales records.
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/backend
+cd /projectpath/backend
 source venv/bin/activate
 python seed.py
 ```
@@ -73,7 +73,7 @@ You only need two terminals:
 ### Terminal 1 — Backend
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/backend
+cd /projectpath/backend
 source venv/bin/activate
 python app.py
 ```
@@ -83,7 +83,7 @@ Backend URL: `http://localhost:5001`
 ### Terminal 2 — Frontend
 
 ```bash
-cd /Users/akshay/Downloads/miniproject/frontend
+cd /projectpath/frontend
 npm run dev
 ```
 
