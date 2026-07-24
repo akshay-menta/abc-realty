@@ -27,6 +27,9 @@ SQLALCHEMY_DATABASE_URI=sqlite:///realestate.db
 ```
 If you want to connect to Supabase, replace `SQLALCHEMY_DATABASE_URI` with your Postgres URL.
 
+### Our Supabase URL
+SQLALCHEMY_DATABASE_URI="postgresql://postgres:July%402k20262k2026@db.liepzgefxvvephnjzuuu.supabase.co:5432/postgres"
+
 
 ## 3. Install dependencies
 
